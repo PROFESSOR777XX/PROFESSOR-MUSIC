@@ -6,7 +6,7 @@ from PURVIMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "https://t.me/+qYRBJgZsARpkNWJl"
+MUST_JOIN = "https://t.me/PROFESSOR_77XX"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
